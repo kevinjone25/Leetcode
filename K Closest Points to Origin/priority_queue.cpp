@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         //使用優先佇列存取，保證距離最大的點會在最前面
-        priority_queue<vector<int>>d;
+        priority_queue<vector<int>>d;//maxheap
         vector<vector<int>>ans;
         for(auto p:points)
         {
