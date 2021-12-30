@@ -2,4 +2,5 @@
 This is the leetcode Experience &amp;&amp;  solution
 
 
-make by kevinjone25 & charleswcz
+Make by kevinjone25 and charleswcz
+
