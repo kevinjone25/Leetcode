@@ -3,7 +3,7 @@ public:
     int minimumDeviation(vector<int>& nums) {
         /*
         先將奇數乘2(去除其中一種操作)，再用set存所有數
-        接著當set中最大元素還是偶數時，不斷執行除2和更新diff(縮小全距)
+        接著當set中最大元素還是偶數時，不斷執行除2和更新diff
         若最大值為奇數，則代表無法再縮小diff，返回diff
         */
         set<int>s;
