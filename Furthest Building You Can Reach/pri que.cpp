@@ -8,7 +8,7 @@ public:
                 if(heights[fur+1]-heights[fur]>0)
                     break;
             return fur;
-        }
+        }//這個都為0時的特例判斷是可以刪的
         priority_queue<int,vector<int>,greater<int>>q;
         //要到達最遠的大樓需要把使用梯子的效率最大化
         //使用優先佇列來維持
