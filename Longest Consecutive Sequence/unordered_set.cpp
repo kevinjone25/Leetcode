@@ -5,7 +5,7 @@ public:
         unordered_set<int> num_set(nums.begin(), nums.end());
         for (int num : nums)
         {
-            if (num_set.find(num - 1) == num_set.end())
+            if (num_set.find(num - 1) == num_set.end())//確保從連續數組的第一個元素開始查找
             {
                 int curr_num = num;
                 int curr_len = 1;
