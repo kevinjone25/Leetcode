@@ -14,7 +14,7 @@ public:
         if (!root)//到底就回傳空
             return root;
         
-		//找到p或q救回傳
+		//找到p或q就回傳
         if (root == p || root == q)
             return root;
         
