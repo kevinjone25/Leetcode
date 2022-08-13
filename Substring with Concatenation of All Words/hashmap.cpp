@@ -19,7 +19,7 @@ public:
             for(k=0;k<n;++k)
             {
                 string sub=s.substr(i+k*l,l);//從s中取出長度為l的子字串
-                if(mp.find(sub)==mp.end() || temp[sub]+1>mp[sub])//找不到字串
+                if(mp.find(sub)==mp.end() || temp[sub]+1>mp[sub])//找不到字串或頻率超過
                     break;
                 ++temp[sub];//紀錄頻率
             }
